@@ -1,0 +1,33 @@
+{
+    "name": "dashboard",
+    "version": "0.1.0",
+    "description": "Dashbboard",
+    "author": {
+        "name": "Silvio Monnerat"
+    },
+    "license": "MIT",
+    "main": "Gruntfile.js",
+    "dependencies": {
+        "grunt-sass": "^3.0.1",
+        "http-server": "^0.11.1",
+        "lodash": "^4.0.1",
+        "node-php-server": "^0.1.2",
+        "node-sass": "^4.9.2",
+        "sass": "^1.10.0",
+        "sass-globbing": "^1.0.0-alpha1"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-cli": "*",
+        "grunt-contrib-clean": "*",
+        "grunt-contrib-concat": "*",
+        "grunt-contrib-cssmin": "*",
+        "grunt-contrib-sass": "^1.0.0",
+        "grunt-contrib-uglify": "^3.3.0",
+        "grunt-contrib-watch": "*",
+        "grunt-cssjanus": "*",
+        "grunt-exec": "*",
+        "grunt-potomo": "*",
+        "grunt-shell": "*"
+    }
+}

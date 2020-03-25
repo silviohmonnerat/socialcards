@@ -1,0 +1,68 @@
+$pathIMG: '../images/';
+
+// Variables
+$c-main: hsla(0, 100%, 100%, .75);
+$c-secondary: hsla(209, 17%, 28%, 1);
+$c-secondary-complementary: hsla(0, 0%, 13%, 1);
+$c-third: hsla(180, 4%, 36%, 1);
+$c-malabars: hsla(178, 40%, 49%, 1);
+$c-shadow-main: hsla(240, 3%, 19%, 1);
+$c-shadow-secondary: hsla(0, 0%, 0%, .26);
+$bg-main: hsla(210, 3%, 15%, 1);
+$media550: 550px;
+$media768: 768px;
+
+// Palette Color.
+$colors: (
+	primary: hsla(208, 18%, 33%, 1),
+	c-primary: hsla(209, 17%, 28%, 1),
+	secundary: hsla(176, 64%, 49%, 1),
+	white: hsla(0, 0%, 100%, 1),
+	black: hsla(0, 0%, 0%, 1),
+	body: hsla(0, 11%, 93%, 1),
+	gray: (
+		1: #383838,
+		2: #484848,
+		3: #585858,
+		4: #686868,
+		5: #707070,
+		6: #808080,
+		7: #909090,
+		8: #A0A0A0,
+		9: #A9A9A9,
+		10: #C0C0C0
+	),
+	blue: (
+		1: #0E4D92,
+		2: #0E4D92,
+		3: #0F52BA,
+		4: #0080FF,
+		5: #57A0D3,
+		6: #73C2FB,
+		7: #89CFF0,
+		8: #7EF9FF,
+		9: #95C8D8,
+		10: #B0DFE5
+	)
+);
+
+// font-size
+$sizes: (
+	1: 10px,
+	2: 11px,
+	3: 13px,
+	4: 15px,
+	5: 17px,
+	6: 19px,
+	7: 21px,
+	8: 24px,
+	9: 30px,
+	10: 50px
+);
+
+$breakpoints: (
+  	xs: 576px,
+  	sm: 768px,
+  	md: 992px,
+  	lg: 1281px
+);

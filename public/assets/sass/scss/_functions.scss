@@ -1,0 +1,25 @@
+@function gutter-value($arg, $gutter) {
+    $value: $arg;
+    @if $gutter {
+        $value: percentage(1 / $arg) - 2%;
+    } @else {
+        $value: percentage(1 / $arg);
+    }
+    @return $value;
+}
+
+@function palette($color, $tone:null) {
+    @if ($tone != null) {
+        @return map-get(map-get($colors, $color), $tone);
+    } @else {
+        @return map-get($colors, $color);
+    }
+}
+
+@function size($size, $element:null) {
+    @if ($element != null) {
+        @return map-get(map-get($sizes, $size), $element);
+    } @else {
+        @return map-get($sizes, $size);
+    }
+}

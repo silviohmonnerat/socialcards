@@ -1,0 +1,8 @@
+tests/
+vendor/
+public/node_modules/*
+.env
+.htaccess
+node_modules/*
+socialcards-app/node_modules/*
+frontend/node_modules/*

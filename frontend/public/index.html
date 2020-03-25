@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <meta property="fb:app_id"         content="598321220616638" /> 
+		<meta property="og:type"           content="article" /> 
+		<meta property="og:url"            content="https://www.socialcards.com.br/" /> 
+		<meta property="og:title"          content="Social Cards" /> 
+		<meta property="og:image"          content="https://www.socialcards.com.br/screenshot.jpg" /> 
+		<meta property="og:description"    content="Social Cards, é uma plataforma aonde os usuários interagem em diversas categorias. Mostrando suas reações e também compartilhando essas informações no Facebook." />
+		
+    <title>Social Cards</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Josefin+Sans" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  </head>
+  <body>
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          appId: '598321220616638',
+          autoLogAppEvents: true,
+          xfbml: true,
+          version: 'v3.2'
+        });
+  
+        // Broadcast an event when FB object is ready
+        var fbInitEvent = new Event('FBObjectReady');
+        document.dispatchEvent(fbInitEvent);
+      };
+  
+      (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) { return; }
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div id="root"></div>
+  </body>
+</html>
