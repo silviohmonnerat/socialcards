@@ -10,7 +10,7 @@
     "dependencies": {
         "grunt-sass": "^3.0.1",
         "http-server": "^0.11.1",
-        "lodash": "^4.0.1",
+        "lodash": "^4.17.19",
         "node-php-server": "^0.1.2",
         "node-sass": "^4.9.2",
         "sass": "^1.10.0",
